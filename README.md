@@ -6,13 +6,13 @@ http://rockpaperscissors-ai.now.sh/
 
 ## What is this?
 
-This is a paper scissors rock game created using artificial intelligence.  
+This is a paper scissors rock game created using artificial intelligence.
 
-This game can read the players' patterns to determine the steps the AI will take in order to win.  
+This game can read the players' patterns to determine the steps the AI will take in order to win.
 
-Built with Nuxt JS & Tailwind CSS framework.  
+Built with React, Vite, and Tailwind CSS.
 
-## Screensot
+## Screenshot
 
 ![image](https://user-images.githubusercontent.com/32485694/90313106-085fa200-df34-11ea-956c-b22986cc01e1.png)
 
@@ -31,17 +31,14 @@ Built with Nuxt JS & Tailwind CSS framework.
 
 ```bash
 # install dependencies
-$ yarn install
+$ npm install
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+# serve with hot reload at localhost:5173
+$ npm run dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+# build for production
+$ npm run build
 
-# generate static project
-$ yarn generate
+# preview production build
+$ npm run preview
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
